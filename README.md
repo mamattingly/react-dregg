@@ -52,3 +52,4 @@ External community reference pages are linked, not reproduced. Third-party sites
 
 ## Important
 This is a copyright-conscious implementation, not a guarantee of legal immunity. Review rights-holder policies and seek legal advice before commercial distribution.
+\n\n## Map reference\nThe interactive route layer is drawn over the map image supplied by the project owner. Base-game POIs are plotted on the supplied chart. Pale Reach and Iron Rig are DLC modules; their destinations are indicated at the chart edge because the supplied image does not depict their separate areas. The route is a planning heuristic, not turn-by-turn navigational routing.\n
