@@ -18,3 +18,15 @@
 @media(max-width:760px){.pursuit-layout{grid-template-columns:1fr}.pursuit-list{max-height:300px;overflow:auto}.pursuit-direction{grid-template-columns:1fr;gap:3px}.pursuit-direction p{margin-bottom:7px}.pursuit-detail-head{flex-direction:column}}
 
 .pursuit-map-wrap{padding:14px 18px;border-bottom:1px solid #2a4545}.pursuit-map-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}.pursuit-map-title>span:last-child{font:11px ui-monospace,monospace;color:#d6c18b}.pursuit-region-map{max-height:270px;overflow:hidden;border:1px solid #35504c;border-radius:7px;background:#d6cbb2}.pursuit-region-map svg{display:block;width:100%;height:auto}.pursuit-map-wrap>p{font-size:9px;color:#8fa99e;margin:8px 0 0;line-height:1.5}
+
+/* Browse and add fish directly from a clicked map region */
+.fish-entry{align-items:center}
+.fish-entry>div{min-width:0;flex:1}
+.fish-entry>div>span{align-self:flex-start;white-space:nowrap;font:9px ui-monospace,monospace;padding:4px 6px;border-radius:5px;margin-top:3px}
+.fish-entry-added{background:#183330}
+.fish-add,.fish-remove{flex-shrink:0;border:1px solid #668b76;border-radius:6px;padding:8px 10px;background:#1d4135;color:#d8eddf;font-size:10px;cursor:pointer}
+.fish-remove{border-color:#5d7669;background:#263b35;color:#b9cfc1}
+.fish-add:hover,.fish-remove:hover{filter:brightness(1.2)}
+.fish-zone{cursor:pointer;pointer-events:all}
+.fish-zone:focus-visible ellipse{stroke:#fff1bd;stroke-width:9}
+@media(max-width:600px){.fish-entry{align-items:flex-start;flex-wrap:wrap}.fish-entry>div{flex-basis:65%}.fish-add,.fish-remove{margin-left:auto}}
