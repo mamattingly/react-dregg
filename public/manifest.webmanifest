@@ -1,0 +1,9 @@
+{
+  "name": "DREDGE Collection Planner",
+  "short_name": "DREDGE Planner",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1d20",
+  "theme_color": "#102a2c",
+  "icons": []
+}
