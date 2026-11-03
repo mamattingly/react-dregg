@@ -1,7 +1,7 @@
 {
   "name": "dredge-collection-planner",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -16,5 +16,5 @@
     "react-dom": "latest"
   },
   "devDependencies": {},
-  "description": "Unofficial fan-made DREDGE collection planner with original UI and locally saved progress"
+  "description": "Unofficial fan-made DREDGE collection planner with interactive route map, DLC modules and locally saved progress"
 }
